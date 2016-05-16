@@ -83,17 +83,20 @@
     <h2>Young's Inequality</h2>
 <h3>Motivation</h3>
 <p>This semester i’ve applied for the course “Introduction to Topology”. As always proofs built upon other proofs. I will depick some inequalities and their proofs, which are needed for topology. I begin with Young’s Inequality which can be used to proof the Hoelder Inequality. The Minkowski Inequality depends on the latter and is used to show that the euclidian norm is a metric.</p>
+
 <h3 id="def:young">Definition</h3>
 <p>Let $f: [0,\infty[ \rightarrow [0,\infty[$ be strictly monotonically increasing and unlimited with $f(0)=0$. This implies that the function is bijective (injective + surjective) and the inverse function $f^{-1}$ is defined. If the following property holds true $a,b \gt 0 $ Young’s Inequality is:
 \begin{eqnarray}\label{eq:young}
 ab \leq \int_0^a f(x) dx + \int_0^b f^{-1}(y) dy
 \end{eqnarray}</p>
+
 <h3>Proof</h3>
-<p>The next figure depicts how this can be proven visually. For $f(a) &gt; b$ and $f(a) &lt; b$ adding the area under the curves together 
+<p>The next figure depicts how this can be proven visually. For $f(a) &gt; b$ and $f(a) &lt; b$ adding the area under the curves together
 always results in a bigger area than that of the rectangle $ab$. If $f(a)=b$ the area is exactly equal to the rectangle area enclosed by a and b.</p>
 <figure>
 <img width="350px" src="http://MeyerFabian.github.io/image/YoungVis.jpg" />
 </figure>
+
 <p>
 First we need to describe the inverse function $f^{-1}(y)$ by x. So substitute $f^{-1}(y)=x$ in the second integral of above eq. Additionally mind $\frac{dy}{dx}= f'(x)$ and to adjust the interval of the integral.
 </p>
