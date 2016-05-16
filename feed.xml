@@ -5,15 +5,15 @@
     <description></description>
     <link>http://MeyerFabian.github.io/</link>
     <atom:link href="http://MeyerFabian.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 May 2016 15:36:06 +0200</pubDate>
-    <lastBuildDate>Mon, 16 May 2016 15:36:06 +0200</lastBuildDate>
+    <pubDate>Mon, 16 May 2016 15:38:31 +0200</pubDate>
+    <lastBuildDate>Mon, 16 May 2016 15:38:31 +0200</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
         <title>Introduction to Partial Differential Equations!</title>
         <description>&lt;h2&gt;Differential Equations&lt;/h2&gt;
 &lt;h3&gt;Motivation&lt;/h3&gt;
-&lt;p&gt;Since i wrote my bachelor thesis on the &lt;a href=&quot;https://github.com/MeyerFabian/snow&quot;&gt;simulation of snow&lt;/a&gt; i’m interested in the field of partial differential equations and their numerical solutions. &lt;a href=&quot;https://disney-animation.s3.amazonaws.com/uploads/production/publication_asset/94/asset/SSCTS13_2.pdf&quot;&gt;Alexey Stomakhin et al.&lt;/a&gt; proposed the material point method. They made use of a finite element solver to compute lagrangian particles in a uniform grid. The hybrid use of Lagrangian particles and a regular cartesian grid enables solving of partial differential equations. Therefore particles are transformed to the grid. The grid velocities can be updated with the calculation of gradients in an FEM-manner (finite element method). Finally grid node velocities are weight back to the particles to move them across the scene. This method is coupled with a constitutive model to cover the dynamic nature of snow. This includes collisions and breaking. In the next blog posts i try to understand and learn more about partial differential equations and what methods are generally used to solve them to dig deeper into the math around the material point method. Following image shows the Stanford-Bunny simulated by my bachelor thesis.&lt;/p&gt;
+&lt;p&gt;Since i wrote my bachelor thesis on the &lt;a href=&quot;https://github.com/MeyerFabian/snow&quot;&gt;simulation of snow&lt;/a&gt; i&#39;m interested in the field of partial differential equations and their numerical solutions. &lt;a href=&quot;https://disney-animation.s3.amazonaws.com/uploads/production/publication_asset/94/asset/SSCTS13_2.pdf&quot;&gt;Alexey Stomakhin et al.&lt;/a&gt; proposed the material point method. &lt;/p&gt;
 
 </description>
         <pubDate>Thu, 05 May 2016 00:00:00 +0200</pubDate>
@@ -29,7 +29,9 @@
         <title>Depicking Young&#39;s Inequality!</title>
         <description>&lt;h2&gt;Young&#39;s Inequality&lt;/h2&gt;
 &lt;h3&gt;Motivation&lt;/h3&gt;
-&lt;p&gt;This semester i’ve applied for the course “Introduction to Topology”. As always proofs built upon other proofs. I will depick some inequalities and their proofs, which are needed for topology. I begin with Young’s Inequality which can be used to proof the Hoelder Inequality. The Minkowski Inequality depends on the latter and is used to show that the euclidian norm is a metric.&lt;/p&gt;
+&lt;p&gt;
+This semester i&#39;ve applied for the course &quot;Introduction to Topology&quot;. As always proofs built upon other proofs. I will depick some inequalities and their proofs, which are needed for topology. I begin with Young&#39;s Inequality which can be used to proof the Hoelder Inequality. The Minkowski Inequality depends on the latter and is used to show that the euclidian norm is a metric.
+&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 05 May 2016 00:00:00 +0200</pubDate>
